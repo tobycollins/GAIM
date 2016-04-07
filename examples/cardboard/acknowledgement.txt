@@ -1,0 +1,3 @@
+These images came from CVLAB's deformable 3D reconstruction online datasets. Please cite the relevant paper if you use these images in your work.
+
+http://cvlab.epfl.ch/research/surface/laplacianshaperecovery
