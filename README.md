@@ -2,7 +2,7 @@
 This is the Matlab implementation of Graph-based Affine Invariant keypoint Matching (GAIM) from the peer reviwered paper "An Analysis of Errors in Graph-based Keypoint Matching and Proposed Solutions" by Toby Collins, Pablo Mesejo and Adrien Bartoli, published in the European Conference on Computer Vision, September 2014. This is the author's implementation. Please cite this paper if you use any part of this code in your work. Above all, we hope that you will find this code useful.
 
 GAIM tackles the general keypoint-based graph matching problem for two images. It does not require prior knowledge about the number of objects in the scene, the amount of occlusion, the amount of background clutter, and object topology (which changes 
-between the images if e.g. an object tears. In our original paper we were using SIFT features as the default keypoint detector. We have included support for SURF, which is now the default. This is considerably faster than SIFT and is recommended to considerably reduce the time needed to simulate keypoints.
+between the images if e.g. an object tears). In our original paper we were using SIFT features as the default keypoint detector. We have included support for SURF, which is now the default. This is considerably faster than SIFT and is recommended to considerably reduce the time needed to simulate keypoints.
 
 The entry-level function is GAIM_matcher. Please call GAIM_example() to run GAIM on three example image pairs, given in ./examples ('cardboard', 'desktop' and 'tear').
 
